@@ -141,4 +141,76 @@ footer {
     align-item: center;
     justify-content: center; 
 }
+body {
+    margin: 0;
+    font-family: 'Orbitron', sans-serif;
+    background: #0a0f2c;
+    color: white;
+    text-align: center;
+}
+
+nav {
+    background: #0f1b4d;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 40px;
+}
+
+.logo-container {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+.logo {
+    height: 35px;   /* Smaller logo */
+    width: auto;
+}
+
+nav h1 {
+    font-size: 20px;
+    margin: 0;
+}
+
+nav a {
+    color: white;
+    text-decoration: none;
+    margin-left: 20px;
+    font-weight: 600;
+}
+
+nav a:hover {
+    color: #00f0ff;
+}
+
+.section {
+    padding: 80px 20px;
+}
+
+.btn {
+    display: inline-block;
+    padding: 12px 25px;
+    background: #00f0ff;
+    color: black;
+    font-weight: bold;
+    border-radius: 8px;
+    text-decoration: none;
+    margin-top: 20px;
+}
+
+.btn:hover {
+    background: #00c3d6;
+}
+
+.mypic {
+    margin: 40px 0;
+}
+
+footer {
+    background: #0f1b4d;
+    padding: 20px;
+    margin-top: 40px;
+}
+
 
