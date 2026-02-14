@@ -138,6 +138,7 @@ footer {
 
 .mypic {
     display: flex;
-    align-item: centre;
-    justify-content: centre; 
+    align-item: center;
+    justify-content: center; 
 }
+
