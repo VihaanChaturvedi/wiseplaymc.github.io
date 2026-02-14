@@ -134,3 +134,10 @@ footer {
 .card a:hover {
     text-shadow: 0 0 10px #00c3ff;
 }
+
+
+.mypic {
+    display: flex;
+    align-item: centre;
+    justify-content: centre; 
+}
