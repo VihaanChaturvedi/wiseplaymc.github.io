@@ -3,111 +3,109 @@
 <head>
   <meta charset="UTF-8">
   <title>WiseplayMC Downloads</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
   <style>
     body {
       margin: 0;
       font-family: Arial, sans-serif;
-      background: linear-gradient(135deg, #0f2027, #203a43, #2c5364);
+      background: linear-gradient(135deg, #001f3f, #003366);
       color: white;
       text-align: center;
     }
 
-    header {
-      padding: 20px;
-      font-size: 30px;
-      font-weight: bold;
-      background: rgba(0, 0, 0, 0.6);
-      box-shadow: 0 2px 10px rgba(0,0,0,0.5);
+    h1 {
+      margin-top: 60px;
+      font-size: 42px;
+      text-shadow: 0 0 20px #00aaff;
     }
 
-    .container {
-      display: flex;
-      justify-content: center;
-      margin-top: 50px;
+    .info-line {
+      margin-top: 40px;
+      font-size: 20px;
+      text-shadow: 0 0 10px #00aaff;
     }
 
-    .card {
-      background: rgba(255, 255, 255, 0.05);
-      border-radius: 15px;
-      padding: 30px;
-      width: 300px;
-      backdrop-filter: blur(10px);
-      box-shadow: 0 0 20px rgba(0, 150, 255, 0.3);
-      transition: 0.3s;
+    .info-line span {
+      margin: 0 15px;
+      padding: 10px 18px;
+      background: rgba(0, 0, 0, 0.5);
+      border-radius: 12px;
+      box-shadow: 0 0 15px #00aaff;
     }
 
-    .card:hover {
-      transform: translateY(-8px) scale(1.02);
-      box-shadow: 0 0 30px rgba(0, 150, 255, 0.7);
-    }
-
-    .title {
-      font-size: 22px;
-      margin-bottom: 10px;
-    }
-
-    .desc {
-      font-size: 14px;
-      color: #ccc;
-      margin-bottom: 20px;
+    .download-section {
+      margin-top: 70px;
     }
 
     .download-btn {
-      background: linear-gradient(45deg, #00c6ff, #0072ff);
-      border: none;
-      padding: 12px 20px;
+      display: inline-block;
+      margin: 15px;
+      padding: 18px 40px;
+      font-size: 20px;
       color: white;
-      font-size: 15px;
-      border-radius: 8px;
-      cursor: pointer;
-      transition: 0.3s;
-      box-shadow: 0 0 10px rgba(0, 150, 255, 0.6);
+      background: #007bff;
+      text-decoration: none;
+      border-radius: 15px;
+      transition: 0.3s ease;
+      box-shadow: 0 0 20px #00aaff;
     }
 
     .download-btn:hover {
-      transform: scale(1.1);
-      box-shadow: 0 0 20px rgba(0, 200, 255, 1);
+      background: #00aaff;
+      box-shadow: 0 0 35px #00aaff;
+      transform: scale(1.05);
     }
 
-    footer {
-      margin-top: 60px;
-      padding: 10px;
-      font-size: 12px;
-      color: #aaa;
+    .back-btn {
+      display: block;
+      margin-top: 50px;
+      color: #00aaff;
+      text-decoration: none;
+      font-size: 18px;
     }
   </style>
 </head>
 
 <body>
 
-<header>
-  💙 WiseplayMC Downloads
-</header>
+  <h1>WiseplayMC Downloads</h1>
 
-<div class="container">
-  <div class="card">
-    <div class="title">Minecraft Skin</div>
-    <div class="desc">Download my custom Minecraft skin</div>
-
-    <button class="download-btn" onclick="downloadSkin()">
-      Download Skin
-    </button>
+  <!-- One Line Info -->
+  <div class="info-line">
+    <span>🔥 Mods Pack</span>
+    <span>✨ Shaders</span>
+    <span>🎨 Resource Packs</span>
   </div>
-</div>
 
-<footer>
-  © 2026 WiseplayMC
-</footer>
+  <!-- Download Buttons -->
+  <div class="download-section">
 
-<script>
-function downloadSkin() {
-  const link = document.createElement('a');
-  link.href = 'C:\Users\Vihaan\Desktop\Folder\PNGs\Minecraft\Skins'; // path to your file
-  link.download = 'skin.png';
-  link.click();
-}
-</script>
+    <!-- Full Pack -->
+    <a class="download-btn"
+       href="https://www.mediafire.com/file/0noy452du1jb36s/WiseplayMC.zip/file"
+       target="_blank">
+       ⬇ Download Modpack
+    </a>
+
+    <!-- Skin -->
+    <a class="download-btn"
+       href="sketch.png"
+       target="_blank">
+       🎮 Download Official Skin
+    </a>
+
+    <!-- Sketches -->
+    <a class="download-btn"
+       href="https://www.mediafire.com/file/lyqdokj52xurecu/Sketches.zip/file"
+       target="_blank">
+       🖍️ WiseplayMC Sketches for Children
+    </a>
+
+  </div>
+
+  <a class="back-btn" href="index.html">⬅ Back to Home</a>
 
 </body>
 </html>
+
